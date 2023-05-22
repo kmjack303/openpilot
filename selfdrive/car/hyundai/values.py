@@ -1098,17 +1098,24 @@ FW_VERSIONS = {
   },
   CAR.GENESIS_G70_2020: {
     (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00IK  MDPS R 1.00 1.08 57700-G9200 4I2CL108',
       b'\xf1\x00IK  MDPS R 1.00 1.07 57700-G9220 4I2VL107',
       b'\xf1\x00IK  MDPS R 1.00 1.07 57700-G9420 4I4VL107',
       b'\xf1\x00IK  MDPS R 1.00 1.08 57700-G9420 4I4VL108',
     ],
     (Ecu.transmission, 0x7e1, None): [
+      b'\xf1\x87WAKTGU080126ZB25vUFUUVuVeT5Tgv6fveVeeTETgxo\xff~\x8e\xf1\x89E25\x00\x00\x00\x00\x00\x00\x00',
+      b'\xf1\x82SIK0T20KB3',
+      b'SIK0T20KB3',
+      b'\xf1\x87WAKTGU080126ZB25vUFUUVuVeT5Tgv6fveVeeTETgxo\xff~\x8e\xf1\x81E25\x00\x00\x00\x00\x00\x00\x00',
+      b'\xf1\x00bcsh8p54  E25\x00\x00\x00\x00\x00\x00\x00SIK0T20KB3Wuvz',
       b'\xf1\x87VCJLP18407832DN3\x88vXfvUVT\x97eFU\x87d7v\x88eVeveFU\x89\x98\x7f\xff\xb2\xb0\xf1\x81E25\x00\x00\x00',
       b'\x00\x00\x00\x00\xf1\x00bcsh8p54  E25\x00\x00\x00\x00\x00\x00\x00SIK0T33NB4\xecE\xefL',
       b'\xf1\x87VDKLT18912362DN4wfVfwefeveVUwfvw\x88vWfvUFU\x89\xa9\x8f\xff\x87w\xf1\x81E25\x00\x00\x00\x00\x00\x00\x00\xf1\x00bcsh8p54  E25\x00\x00\x00\x00\x00\x00\x00SIK0T33NB4\xecE\xefL',
       b'\xf1\x87VDJLC18480772DK9\x88eHfwfff\x87eFUeDEU\x98eFe\x86T5DVyo\xff\x87s\xf1\x81E25\x00\x00\x00\x00\x00\x00\x00\xf1\x00bcsh8p54  E25\x00\x00\x00\x00\x00\x00\x00SIK0T33KB5\x9f\xa5&\x81',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00IK__ SCC FHCUP      1.00 1.02 96400-G9000         ',
       b'\xf1\x00IK__ SCC F-CUP      1.00 1.02 96400-G9100         ',
       b'\xf1\x00IK__ SCC F-CUP      1.00 1.02 96400-G9100         \xf1\xa01.02',
       b'\xf1\x00IK__ SCC FHCUP      1.00 1.02 96400-G9000         ',
@@ -1118,6 +1125,9 @@ FW_VERSIONS = {
       b'\xf1\x00IK  MFC  AT KOR LHD 1.00 1.01 95740-G9000 170920',
     ],
     (Ecu.engine, 0x7e0, None): [
+      b'\xf1\x82IKDJDC0TSG2A\x00\x00\x00\x00',
+      b'IKDJDC0TSG2A\x00\x00\x00\x00',
+      b'\xf1\x81606G2051\x00\x00\x00\x00\x00\x00\x00\x00',
       b'\xf1\x81640J0051\x00\x00\x00\x00\x00\x00\x00\x00',
       b'\xf1\x81640H0051\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
